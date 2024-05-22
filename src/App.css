@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.Game-Heading{
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom : 10px;
+}
+.Main-section{
+    display: flex;
+    justify-content: center;
+}
+.Game-container{
+    /* border: 2px solid black; */
+    border-radius: 5%;
+    height: 70vh;
+    width: 35vw;
+    background-color:rgb(32, 181, 132)
+
+}
+.player-section{
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color:#26074f;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.game-section{
+    height: 350px;
+    width: 100%;
+    border-radius: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
